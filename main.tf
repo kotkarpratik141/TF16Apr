@@ -1,4 +1,5 @@
 resource "local_file" "fileviatf" {
-    filename = "filenewTF"
+    filename = "filenewTF.txt"
+    content = 'Hello Terraform'
   
 }
